@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+        .box {
+            background-color: rgb(55, 2, 2);
+            height: 811px;
+            width: 950px;
+            margin: 0px 0px 0px 0px;
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            color:#6c757d;
+            background-image: URL();
+        }
+
+        .sign {
+            position: absolute;
+            top: 0px;
+            right: 40px;
+            bottom: 0px;
+            height: 700px;
+            width: 450px;
+            padding: 45px;
+            line-height: 30px;
+
+        }
+
+        #S {
+            position: absolute;
+            bottom: 0px;
+            left: 0px;
+            top: 180px;
+            left: 60px;
+            font-size: 45px;
+            color: rgb(195, 149, 90);
+        }
+
+        .form {
+            
+            position: relative;
+            top: 100px;
+            bottom: 0px;
+            padding: 50px;
+            line-height: 45px;
+        }
+
+        #button {
+            height: 40px;
+            width: 100%;
+        }
+        #img{position:absolute;
+            left:130px ;
+
+        }
+    </style>
+</head>
+
+<body>
+ <footer style="background-color:#f8f9fa; padding:40px 0; text-align:center; font-family:Arial, sans-serif;height: 80px;">
+    <p style="color:#6c757d;">© 2025 Your Company Name. All rights reserved.</p>
+</footer>
+
+    <div class="box">
+        <img src="" alt="">
+        <h1 style="text-align: center;">Take Your Labour</h1>
+    </div>
+    <div class="sign">
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspsign up<a style="word-spacing: 45px;"> <br>&nbspor
+            <br></a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsplog in
+        <h1 id="S">Sign in</h1>
+        <form action="Anish vasava" method="post" class="form">
+            <a>User name : </a><input type="text" name="user" id="user" placeholder="Enter Your User name" required><br>
+            <a>Password : </a><input type="password" name="user" id="user" placeholder="Enter Your User password"
+                required><br>
+            <a href="terms.html" >terms & conditions</a>
+            <br><input type="checkbox" name="user" id="user">I read all terms and conditions
+            <br><button id="button">Login</button>
+            <br><button id="button"><img id="img"
+                    src="data:image/png;base64,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"
+                    alt="logo" height="20px" width="20px">Sign with Google</button>
+
+
+        </form>
+    </div>
+
+</body>
+
+</html>
